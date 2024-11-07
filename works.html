@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yee Mon's Portfolio.</title>
+    <link rel="stylesheet" href="works.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.4.0/fonts/remixicon.css" rel="stylesheet"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Cinzel:wght@400..900&family=Quicksand:wght@300..700&family=Red+Hat+Text:wght@300..700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="items-left">
+            <a href="index.html">Home</a>
+            <a href="works.html">Works</a>
+        </div>
+
+        <div class="items-right">
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <!-- <div class="container">
+        <div class="intro-text">
+            <p>SELECTED WORKS.</p>
+            <p>SELECTED WORKS.</p>
+            <p>SELECTED WORKS.</p>
+            <p>SELECTED WORKS.</p>
+        </div>
+    </div> -->
+
+    <div class="landing">
+        <div class="main-word">
+            <div>
+                <h1 id="my-text">SELECTED WORKS</h1>
+            </div>
+        </div>
+
+        <div class="icon">
+            <div>
+                <i class="ri-arrow-down-wide-fill"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="line-break">
+        <hr/>
+    </div>
+
+    <div class="headers">
+        <section class="sections">
+            <h1 class="titles">DEVELOPMENT</h1>
+
+            <p>Step into my world of interactive projects where technology meets creativiy. From creation of web application to building and developing a Virtual Reality Escape Room Game, you'll get to see everything that is all about creating a dynamic technolgy environment.</p>
+
+            <div class="img">
+                <a href="dev.html"><img src="\images\Mockup.jpg" alt=""></a>
+            </div>
+        </section>
+
+        <div class="line-break">
+            <hr/>
+        </div>
+
+        <section class="sections">
+            <h1 class="titles">DESIGN</h1>
+
+            <p>Explore my creative ideas come to life in this section! You'll find a mix of expressive and fun designs like stickers design, logo design, character design, name card design and many more that was created with dedication and personality. </p>
+
+            <div class="img">
+                <a href="design.html"><img src="\images\Corporate-Folder-Stationery-Free-psd-Mockup-Recovered.jpg" alt=""></a>
+            </div>
+        </section>
+
+        <div class="line-break">
+            <hr/>
+        </div>
+
+        <section class="sections">
+            <h1 class="titles">PHOTOGRAPHY</h1>
+
+            <p>Check out a collection of enchanting moments I have captured on both digital and film mediums. Whether it's landscapes, candid shots, portraits or something unexpected, I hope you can reflect my love for storytelling through these photographs I have taken through out the year.</p>
+
+            <div class="img">
+                <a href="photography.html"><img src="\images\A968DC30-74BD-416C-A7FD-6C87452DFCCD-2572-000000F893102D5E.JPG" alt=""></a>
+        </section>
+
+        <div class="spacer"></div>
+    </div>
+
+    <div class="line-break">
+        <hr/>
+    </div>
+
+    <div class="contact">
+        <div class="main-title">
+            <h1>LET'S WORK TOGETHER.</h1>
+        </div>
+
+        <div class="circle2">
+            <div class="contact-text">
+                <a href="contact.html"><p>CONTACT</p></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="line-break">
+        <hr/>
+    </div>
+
+    <footer class="footer">
+
+
+        <div class="footer-text">
+            <div>
+                <p>Made with Love</p>
+            </div>
+
+            <div>
+                <a class="email" href="mailto:amy.ymt24@gmail.com"><p>Email</p></a>
+                <a href="https://www.linkedin.com/in/yee-mon-thu"><p>LinkedIn</p></a>
+            </div>
+
+            <div>
+                <a class="ig" href="https://www.instagram.com/bienaimee69/"><p>Instagram</p></a>
+                <a href="https://www.behance.net/amyymt"><p>Behance</p></a>
+            </div>
+
+            <div>
+                <p>© 2021 Yee Mon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/split-type"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script>
+        const myText = new SplitType('#my-text')
+
+        gsap.to('.char', {
+            y: 0,
+            stagger:  0.05,
+            delay: 0.2,
+            duration: .1
+        });
+    </script>
+
+</body>
+</html>

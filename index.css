@@ -1,0 +1,450 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* font-family: "Aboreto", serif; */
+/* font-family: "Red Hat Text", sans-serif; */
+/* font-family: "Cinzel", serif; */
+
+html, body {
+    width: 100%;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.char {
+    transform: translateY(187px);
+    transition: transform 0.5s;
+}
+
+#development1 {
+    margin-top: 50px;
+}
+
+
+h3, h2 {
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.aboutme-title h1, .aboutme-title2 h1 {
+    color: rgb(1, 63, 138);
+}
+
+.aboutme-text h2 {
+    color: rgb(1, 63, 138);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    padding: 0 50px;
+    background-color: rgb(1, 63, 138);
+}
+
+a {
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.landing {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.main h1 {
+    font-weight: 400;
+    font-size: 10vw;
+    color: orange;
+    white-space: nowrap;
+    /* font-family: "Bebas Neue", sans-serif; */
+    font-family: "Cinzel", serif;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.landing-img img {
+    width: 400px;
+    z-index: 0;
+    border-radius: 20px;
+}
+
+.name1 {
+    z-index: 1;
+    position: absolute;
+    padding: 0 20px 0 0;
+    top: 30%;
+}
+
+
+/* .name2 {
+    padding: 0 0 0 20px;
+} */
+
+.subtext{
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(1, 63, 138);
+    position: relative;
+    top: 20px;
+    left: 0%;
+}
+
+.icon {
+    position: absolute;
+    top: 90%;
+    font-size: 4vw;
+    color: rgb(1, 63, 138);
+}
+
+/* .container {
+    width: 100%;
+    height: 100%;
+} */
+
+.img img {
+    width: 1000px;
+    height: 700px;
+    object-fit: cover;
+}
+
+/* p {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+} */
+
+/* .intro-text {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -25;
+} */
+
+section {
+    margin: 0 0 30vh 0;
+}
+
+.spacer {
+    width: 100%;
+    height: 60px;
+}
+
+/* 
+@keyframes circle {
+    0% {
+        clip-path: circle(35%);
+    }
+    50% {
+        clip-path: circle(75%);
+    }
+
+    100% {
+        clip-path: circle(35%);
+    }
+} */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 0 80px;
+}
+
+.contact-form {
+    margin: 0 80px 0 0;
+    width: 50%;
+}
+
+/* input {
+    width: 30%;
+    padding: 2px 0px;
+    background-color: transparent;
+    color: black;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    font-size: 27px;
+} */
+
+/* .socials {
+    margin-top: 50px;
+} */
+
+/* .email {
+    width: 15%;
+} */
+
+/* .linkedin {
+    width: 15%;
+}
+
+.instagram {
+    width: 15%;
+}
+
+.behance {
+    width: 15%;
+} */
+
+/* .button {
+    border: none;
+    padding: 10px 20px;
+    background-color: rgb(127, 161, 150);
+    border-radius: 100px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 15px;
+} */
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 80px;
+}
+
+.aboutme {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 20px;
+}
+
+.aboutme-info {
+    width: 50%;
+    margin: 0 80px;
+}
+
+
+.aboutme-title {
+    margin-bottom: 15px;
+    font-size: 1.5vw;
+    position: relative;
+    top: -25px;
+}
+
+.aboutme-title h1 {
+    font-family: "Cinzel", serif;
+    font-weight: 500;
+}
+
+.aboutme-title hr {
+    flex-grow: 1; 
+    border: none; 
+    border-top: 1px solid #000; 
+}
+
+.main-title {
+    font-size: 2vw;
+}
+
+.main-title h1 {
+    font-family: "Cinzel", serif;
+    font-weight: 500;
+    color: rgb(1, 63, 138);
+}
+
+.aboutme-contents {
+    width: 50%;
+    margin: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.aboutme-title2 {
+    font-size: 1vw;
+}
+
+.aboutme-title2 h1 {
+    font-family: "Cinzel", serif;
+    font-weight: 550;
+}
+
+.aboutme-button-link p {
+    font-family: "Cinzel", serif;
+    font-weight: 400;
+}
+
+.circle1 {
+    width: 170px;
+    height: 170px;
+    margin-top: 20px;
+    border-radius: 50%;
+    background-color: rgb(1, 63, 138);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle2 {
+    width: 170px;
+    height: 170px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-radius: 50%;
+    background-color: rgb(1, 63, 138);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-text a {
+    color: white;
+    text-decoration: none;
+    font-family: "Cinzel", serif;
+    font-weight: 400;
+    
+}
+
+.line-break {
+    margin: 0 80px;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 80px;
+}
+
+.footer {
+    height: 200px;
+}
+
+.footer p, a {
+    color: rgb(1, 63, 138);
+}
+
+.email {
+    position: relative;
+    top: 20px;
+}
+
+.ig {
+    position: relative;
+    top: 20px;
+}
+
+.aboutme-button-link a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a {
+    font-family: "Cinzel", serif;
+    font-weight: 450;
+    color: white;
+}
+
+.footer p {
+    font-family: "Cinzel", serif;
+    font-weight: 450;
+}
+
+.sec-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px;
+    height: 100vh;
+}
+
+.sec-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px;
+    height: 100vh;
+}
+
+.sec-1-contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.sec-2-contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.sec-1-img img {
+    border-radius: 27% 0% 0% 0% / 28% 10% 10% 10% ;
+    width: 700px;
+    height: 800px;
+    object-fit: cover;
+}
+
+.sec-2-img img {
+    border-radius: 0% 27% 0% 0% / 10% 27% 10% 10% ;
+    width: 700px;
+    height: 800px;
+    object-fit: cover;
+}
+
+.sec-1-title h1 {
+    font-family: "Cinzel", serif;
+    font-weight: 500;
+    font-size: 4vw;
+    color: rgb(1, 63, 138);
+    position: relative;
+    top: -50px;
+}
+
+.sec-2-title h1 {
+    font-family: "Cinzel", serif;
+    font-weight: 500;
+    font-size: 4vw;
+    color: rgb(1, 63, 138);
+    position: relative;
+    top: -50px;
+}
+
+.sec-1-text p {
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4vw;
+    text-align: center;
+    color: rgb(1, 63, 138);
+}
+
+.sec-2-text p {
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4vw;
+    text-align: center;
+    color: rgb(1, 63, 138);
+}

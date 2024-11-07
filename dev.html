@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yee Mon's Portfolio.</title>
+
+    <link rel="stylesheet" href="dev.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.4.0/fonts/remixicon.css" rel="stylesheet"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Cinzel:wght@400..900&family=Quicksand:wght@300..700&family=Red+Hat+Text:wght@300..700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="items-left">
+            <a href="index.html">Home</a>
+            <a href="works.html">Works</a>
+        </div>
+
+        <div class="items-right">
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <div class="landing">
+        <div class="main-word">
+            <div>
+                <h1 id="my-text">DEVELOPMENT*</h1>
+            </div>
+        </div>
+
+        <div class="icon">
+            <div>
+                <i class="ri-arrow-right-down-line"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="works">
+        
+        <div class="line-break">
+            <hr/>
+        </div>
+
+        <div class="container-left">
+
+            <div class="left">
+                <div class="contents-left">
+                    <div class="img">
+                        <a href="vr.html"><img src="\images\Screenshot 2024-10-26 182733.png" alt=""></a>
+                    </div>
+                </div>
+    
+                <div class="text-info-left">
+                    <div class="text">
+                        <h1>The Last Shot</h1>
+                        <button class="tags2" type="button">Virtual Reality</button>
+                        <button class="tags2" type="button">Game Design & Development</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-text-container">
+                <div class="right-text">
+                    <p>The Last Shot is the Virtual Reality Escape Room Game with the Murder/Thriller theme and consisting of 4 different puzzles to provide players with engaging experience. Check out the process of how I've created and developed this VR game from scratch using the software Unity!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="line-break">
+            <hr/>
+        </div>
+
+        <div class="container-right">
+
+            <div class="left-text-container">
+                <div class="left-text">
+                    <p>Yee Mon's Travel Journals is the web application developed using Node.js and includes CRUD operations that provide the features of creating new travel journals, read all the existing journals, updating any information and remove journals. Step into this to find out more about the process and the final outcome!</p>
+                </div>
+            </div>
+
+            <div class="right">
+                <div class="contents-right">
+                    <div class="img">
+                        <a href="web.html"><img src="\images\Mockup.jpg" alt=""></a>
+                    </div>
+                </div>
+        
+                <div class="text-info-right">
+                    <div class="text">
+                        <h1>Yee Mon's Travel Journal</h1>
+                        <button class="tags1" type="button">Web Application Development</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="line-break">
+        <hr/>
+    </div>
+
+    <div class="contact">
+        <div class="main-title">
+            <h1>LET'S WORK TOGETHER.</h1>
+        </div>
+
+        <div class="circle">
+            <div class="contact-text">
+                <a href="contact.html"><p>CONTACT</p></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="line-break">
+        <hr/>
+    </div>
+
+    <footer class="footer">
+
+
+        <div class="footer-text">
+            <div>
+                <p>Made with Love</p>
+            </div>
+
+            <div>
+                <a class="email" href="mailto:amy.ymt24@gmail.com"><p>Email</p></a>
+                <a href="https://www.linkedin.com/in/yee-mon-thu"><p>LinkedIn</p></a>
+            </div>
+
+            <div>
+                <a class="ig" href="https://www.instagram.com/bienaimee69/"><p>Instagram</p></a>
+                <a href="https://www.behance.net/amyymt"><p>Behance</p></a>
+            </div>
+
+            <div>
+                <p>© 2021 Yee Mon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/split-type"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/SplitText.min.js"></script>
+    <script>
+
+        const myText = new SplitType('#my-text')
+
+        gsap.to('.char', {
+            y: 0,
+            stagger:  0.05,
+            delay: 0.2,
+            duration: .1
+        })
+        
+    </script>
+
+</body>
+</html>
